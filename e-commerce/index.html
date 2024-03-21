@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Hero</title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel = "stylesheet" href = "style.css">
+
+    <script src="https://kit.fontawesome.com/310ca2316d.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+    <header class="p-sm-3 pt-16,pb-16,pl-198,pr-160 align-content-around justify-content-center" style="background-color: rgb(26, 24, 122);">
+      <div class="d-flex ps-5 justify-items-end">
+        <div class="row align-items-center"> 
+            <div class="col-lg-4 col-6">
+                <img class="w-50 img-fluid" src="./resources/Group 2.png" alt="logo">
+            </div>
+
+          <div class="col-lg-8 col-6">
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid d-flex justify-content-end">
+                <a class="navbar-brand" href="#"></a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                  style="background-color: white"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button> 
+                <div class="collapse navbar-collapse justify-content-end"id="navbarSupportedContent">
+                    <ul class="navbar-nav  mb-2 mb-lg-0 justify-content-around">
+                        <li class="nav-item">
+                          <form class="d-flex w-150" role="search">
+                            <input
+                              class="form-control me-2"
+                              type="search"
+                              placeholder="Search"
+                              aria-label="Search"
+                            />
+                          </form>
+                        </li>
+                      
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-primary" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-primary" href="#">Contact Us</a>
+                        </li>
+                      
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#">
+                            <i class="fas fa-shopping-cart"></i>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#">
+                            <i class="fas fa-user"></i>
+                          </a>
+                        </li>
+                      </ul>
+                      
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+ 
+    <main>
+
+        <div id="carouselExample" class="carousel slide position:absolute p-5 d-flex justify-content-center" style="background-color: rgb(179, 156, 197);">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row justify-content-center align-items-center"> 
+                        <div class="col-lg-6 col-md-12 m-5 text-center"> 
+                            <p style="font-size: 40px;">Pro.Beyond.</p>
+                            <h1 style="font-size: 70px;">IPhone 14 Pro</h1>
+                            <p style="font-size: 26px;">Created to change everything for the better. for everyone</p>
+                            <button type="button" class="btn btn-primary text-white" style="font-size: 18px;">Shop Now</button>
+                        </div>
+                        <div class="col-lg-4 col-md-12 m-5"> 
+                            <img style="max-width: 100%" src="./resources/Iphone Image.png" class="rounded mx-auto d-block" alt="photo">
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="carousel-item">
+                    <div class="row justify-content-center align-items-center"> 
+                        <div class="col-lg-6 col-md-12 m-5 text-center"> 
+                            <p style="font-size: 40px;">Pro.Beyond.</p>
+                            <h1 style="font-size: 70px;">OnePlus 11 Pro</h1>
+                            <p style="font-size: 26px;">Never Settle</p>
+                            <button type="button" class="btn btn-primary text-white" style="font-size: 18px;">Shop Now</button>
+                        </div>
+                        <div class="col-lg-4 col-md-12 m-5"> 
+                            <img style="max-width: 100%" src="./resources/black-img1.png" class="rounded mx-auto d-block" alt="photo">
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="carousel-item">
+                    <div class="row justify-content-center align-items-center"> 
+                        <div class="col-lg-6 col-md-12 m-5 text-center"> 
+                            <p style="font-size: 40px;">Pro.Beyond.</p>
+                            <h1 style="font-size: 70px;">Galaxy Z Flip4</h1>
+                            <p style="font-size: 26px;">Do what you can't. Imagine the Possibilities.</p>
+                            <button type="button" class="btn btn-primary text-white" style="font-size: 18px;">Shop Now</button>
+                        </div>
+                        <div class="col-lg-4 col-md-12 m-5"> 
+                            <img style="max-width: 100%" src="./resources/z-flip-3-black1-removebg-preview (1).png" alt="photo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        
+
+        <div class="container p-3 justify-content-around align-items-center">
+            <div class="row">
+                <div class="col-sm-12 col-lg-6 mt-3">
+                    <div class="d-flex py-5" style="background-color: rgb(217, 245, 240); height: 300px;">
+                        <img src="./resources/ipad.png" class="rounded float-start" alt="image" style="width: 150px; height: auto;">
+                        <div class="text-left align-self-center ml-1">
+                            <h1>IPad 9</h1>
+                            <p>Designed for the large Multi‑Touch display, iPadOS is powerful and easy to use.iPadOS pushes the capabilities of iPad further with more discoverable multitasking, new ways to find and organize information, and enhanced note‑taking.</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-sm-12 col-lg-6 mt-3">
+                    <div class="d-flex py-5" style="background-color: rgb(198, 209, 209); height: 300px;">
+                        <img src="./resources/Group 6.png" class="rounded float-start" alt="image" style="width: 150px; height: auto;">
+                        <div class="text-left align-self-center py-5 pt-5">
+                            <h1>Macbook Air</h1>
+                            <p>MacBook Air with M3 leverages the incredible AI performance of the Neural Engine to deliver intelligent macOS features that enhance productivity and creativity, including powerful camera features, real-time speech to text, and visual understanding. And with access to a broad ecosystem of apps that deliver advanced AI features, users can do everything from checking their homework with AI Math Assistance in Goodnotes.</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-sm-12 col-lg-6 mt-3">
+                    <div class="d-flex py-5" style="background-color: rgb(184, 205, 234); height: 300px;">
+                        <img src="./resources/Iphone 14 pro 1.png" class="rounded float-start" alt="image" style="width: 150px; height: auto;">
+                        <div class="text-left align-self-center p-5">
+                            <h1>Apple Airpods Max</h1>
+                            <p> With plenty of talk and listen time, voice-activated Siri access, and an available wireless charging case, AirPods deliver an incredible wireless headphone experience. Simply take them out and they're ready to use with all your devices. Put them in your ears and they connect immediately, immersing you in rich, high-quality sound. Just like magic.</p>
+                        </div>
+                    </div>
+                </div>  
+        
+                <div class="col-sm-12 col-lg-6 mt-3 d-flex justify-content-center align-items-center">
+                    <button type="button" class="btn btn-primary text-white w-25">Shop Now</button>
+                </div>
+            </div>
+        </div>
+
+
+        
+        <div class="container m-auto pt-5 pb-5 justify-content-center align-items-center">
+          <div class="d-flex align-items-center justify-content-between"> 
+            <h3>Browse By Category</h3> 
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+          <div class="row row-cols-2 row-cols-lg-6 justify-content-center d-flex">
+            <div class="col p-2">
+              <div class="card" style = "background-color :rgb(233, 232, 234)">
+                  <i class="fas fa-mobile fa-4x mx-auto p-3"></i>
+                  <div class="card-body text-center">
+                      <h5 class="card-title">Phones</h5>
+                  </div>
+              </div>
+          </div>
+          <div class="col p-2">
+                <div class="card" style = "background-color :rgb(233, 232, 234)">
+                      <i class="fa-solid fa-laptop fa-4x mx-auto p-3"></i>
+                      <div class="card-body text-center">
+                          <h5 class="card-title">Laptops</h5>
+                      </div>
+                  </div>
+              </div>
+              <div class="col p-2">
+                <div class="card" style = "background-color :rgb(233, 232, 234)">
+                      <i class="fa-solid fa-camera fa-4x mx-auto p-3"></i>
+                      <div class="card-body text-center">
+                          <h5 class="card-title">Cameras</h5>
+                      </div>
+                  </div>
+              </div>
+              <div class="col p-2">
+                <div class="card" style = "background-color :rgb(233, 232, 234)">
+                      <i class="fas fa-headphones fa-4x mx-auto p-3"></i>
+                      <div class="card-body text-center">
+                          <h5 class="card-title">HeadPhones</h5>
+                      </div>
+                  </div>
+              </div>
+              <div class="col p-2">
+                <div class="card" style = "background-color :rgb(233, 232, 234)">
+                      <i class="fas fa-computer fa-4x mx-auto p-3"></i>
+                      <div class="card-body text-center">
+                          <h5 class="card-title">Computers</h5>
+                      </div>
+                  </div>
+              </div>
+              <div class="col p-2">
+                <div class="card" style = "background-color :rgb(233, 232, 234)">
+                      <i class="fas fa-gamepad fa-4x mx-auto p-3"></i>
+                      <div class="card-body text-center">
+                          <h5 class="card-title">Gaming</h5>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+      <div class="container pt-5 pb-5 d-flex flex-column justify-content-center align-items-left">
+        <div> 
+            <ul class="nav nav-underline pb-4">
+                <li class="nav-item">
+                    <a class="nav-link active fs-5" aria-current="page" href="#">New Arrival</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black fs-5" href="#">Best Seller</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black fs-5" href="#">Featured Products</a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="row row-cols-2 row-cols-lg-4 justify-content-center">
+            <div class="col p-2">
+              <div class="card position-relative" style="background-color: rgb(250, 248, 253);">
+                <div class="position-absolute top-0 end-0 m-3">
+                  <i class="fas fa-heart text-danger p-1"></i>
+              </div>
+
+                <img class="p-5" src="./resources/Iphone 14 pro 1-2.png" alt="image">
+                <div class="card-body text-center">
+                    <h5>
+                        Apple iPhone 14 pro max<br>
+                        128 GB deep purple<br>
+                        (MQ9T3RX/A)
+                    </h5>
+                    <h4>$900</h4>
+                    <button type="button" class="btn btn-dark text-white w-50">Buy Now</button>
+                </div>
+            </div>
+            </div>
+            
+    
+            <div class="col p-2">
+              <div class="card position-relative" style="background-color: rgb(250, 248, 253);">
+                <div class="position-absolute top-0 end-0 m-3">
+                  <i class="fa-regular fa-heart text-dark p-"></i>
+              </div>
+
+                <img class="p-5" src="resources/Iphone 14 pro 1-3.png" alt="image">
+                <div class="card-body text-center">
+                    <h5>
+                        Blackmagic Pocket Cinema<br>
+                        Camera 6K
+                    </h5>
+                    <h4>$2535</h4>
+                    <button type="button" class="btn btn-dark text-white w-50">Buy Now</button>
+                </div>
+            </div>
+            </div>
+
+            <div class="col p-2">
+              <div class="card position-relative" style="background-color: rgb(250, 248, 253);">
+                <div class="position-absolute top-0 end-0 m-3">
+                  <i class="fa-regular fa-heart text-dark p-1"></i>
+              </div>
+
+                <img class="p-5" src="resources/Iphone 14 pro 1-1.png" alt="image">
+                <div class="card-body text-center">
+                    <h5>
+                        Apple Watch Series 9 <br> 
+                        GPS 41mm<br>
+                        Startlight Aluminium Case
+                    </h5>
+                    <h4>$399</h4>
+                    <button type="button" class="btn btn-dark text-white w-50">Buy Now</button>
+                </div>
+            </div>
+            </div>
+
+            <div class="col p-2">
+              <div class="card position-relative" style="background-color: rgb(250, 248, 253);">
+                <div class="position-absolute top-0 end-0 m-3">
+                  <i class="fa-regular fa-heart text-dark p-1"></i>
+              </div>
+
+                <img class="p-5" src="resources/hero__gnfk5g59t0qe_xlarge_2x 1.png" alt="image">
+                <div class="card-body text-center">
+                    <h5>
+                        AirPods Max Silver
+                    </h5>
+                    <h4>$549</h4>
+                    <button type="button" class="btn btn-dark text-white w-50">Buy Now</button>
+                </div>
+            </div>
+            </div>
+    </div>
+
+    </main>
+    
+    <footer>
+      <div class="container-fluid mt-5" style="background-color: rgb(162, 157, 211);">
+        <div class="row">
+            <div class="col-lg-4 col-sm-12">
+                <img class="img-fluid pt-lg-5 pt-sm-5 justify content-center align-content-center" src="resources/image 19.png" alt="image" style="width: 70%;">
+            </div>
+    
+            <div class="col-lg-4 col-md-12 pt-5 mt-4 align-items-center justify-content-center">
+                <div class="d-flex flex-column justify-content-center align-items-center text-center">
+                    <div class="mb-4 d-flex">
+                        <p class="font-weight-bold mb-0" style="font-size: 4rem;">11.11 </p>
+                        <p class="font-weight-bold mb-0 text-white" style="font-size: 4rem;"> Sale</p>
+                    </div>
+                    <p class="mb-0" style="font-size: 1.625rem;">
+                        For a limited time only, we're rolling out unbeatable deals on a wide range of products. Don't miss out on the chance to save big and score incredible discounts on your favorite brands.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="col-lg-4 col-sm-12 ">
+                <img class="img-fluid pt-lg-5 pt-sm-5" src="resources/pol_pl_Etui-Spigen-Stand-Folio-do-Apple-iPad-Pro-12-9-2018-Black-Szklo-34816_7-removebg-preview.png" alt="image">
+            </div>
+        </div>
+    </div>
+
+    <!-- footer start  -->
+    
+    <div class="bg-dark d-flex align-items-center justify-content-center p-5">
+        <div class="row text-center">
+            <div class="col-sm-12 col-lg-3 p-3 d-flex align-items-center justify-content-center">
+                <img class="w-50 img-fluid" src="./resources/Group 2.png" alt="logo">
+            </div>
+            
+    
+            <div class="col-sm-12 col-lg-3 d-flex p-5 align-items-center justify-content-around text-white fa-2x">
+                <i class="fab fa-facebook pr-3"></i>
+                <i class="fab fa-twitter pr-3"></i>
+                <i class="fab fa-instagram pr-3"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+    
+            <div class="col-sm-12 col-lg-3 p-3 align-items-center justify-content-center">
+                <p class="text-left" style="color: rgb(213, 213, 216);">Services<br>Bonus program<br>Gift cards<br>Credit and payment<br>Service contracts<br>No-cash account<br>Payment</p>
+            </div>
+    
+            <div class="col-sm-12 col-lg-3 p-3 align-items-center justify-content-center">
+                <p class="text-left" style="color: rgb(213, 213, 216);">Assistance to the buyer<br>Find an order<br>Terms of delivery<br>Exchange and return of goods<br>Guarantee<br>Frequently asked questions<br>Terms and conditions</p>
+            </div>
+        </div>
+    </div>
+      
+      <!-- footer end  -->
+    </footer>
+   
+    
+    
+    <!-- this is script file  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
