@@ -1,0 +1,78 @@
+*{
+    padding : 0;
+    margin: 0;
+}
+
+.sort-btn:hover {
+  background-color: rgb(222, 80, 80) !important;
+  color:white !important;
+}
+
+
+.blog-btn:hover{
+    background-color: rgb(210, 219, 222) !important;
+    color: black !important;
+}
+
+.tab {
+    display: inline-block;
+    background-color: rgb(210, 219, 222);
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    height: 30px;
+    width: 90px;
+    text-align: center;
+    padding-top: 3px;
+    border-radius: 3px;
+  }
+  
+  .tab:hover {
+    background-color: rgb(222, 80, 80);
+    color:white;
+  }
+
+  .selected{
+    background-color: rgb(222, 80, 80);
+    color:white;
+  }
+
+  .card{
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    display: flex;
+
+  }
+
+  #cards{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+  }
+
+  .author-img{
+    width: 50px;
+    height: 300px;
+  }
+
+
+  .logo-image{
+    width:20px;
+    height:20px;
+    margin-left: 5px;
+    text-align: center;
+  }
+
+  .card-img-top{
+    width: 300px;
+    height: 250px;
+  }
+
+  
+  
+  
